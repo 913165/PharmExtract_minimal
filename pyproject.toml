@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radextract"
+version = "0.1.0"
+description = "Radiology Report Structuring Demo using LangExtract"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Akshay Goel", email = "goelak@google.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "Flask>=3.1.0",
+    "Flask-Limiter>=3.5.0",
+    "gunicorn>=23.0.0",
+    "langextract>=0.1.3",
+    "pandas>=1.3.0",
+    "numpy>=1.20.0",
+    "ml-collections>=0.1.0",
+    "pydantic>=1.8.0",
+    "requests>=2.25.0",
+    "typing-extensions>=4.0.0",
+    "more-itertools>=8.0.0",
+    "langfun>=0.1.0",
+    "google-genai>=0.1.0",
+    "python-dotenv>=1.0.0",
+    "ftfy>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==7.4.0",
+    "pylint==2.17.5",
+    "pyink==24.10.1",
+    "autoflake==2.3.1",
+]
+
+[project.urls]
+Homepage = "https://huggingface.co/spaces/google/radextract"
+Repository = "https://huggingface.co/spaces/google/radextract"
+"Source Code" = "https://github.com/google/langextract"
+Documentation = "https://github.com/google/langextract"
+
+[tool.setuptools]
+packages = ["radextract"]
+
+[tool.setuptools.package-dir]
+radextract = "."
+
+[tool.pyink]
+line-length = 88
+target-version = ['py39']
+pyink-indentation = 4
+pyink-use-majority-quotes = true
+
+[tool.pylint.messages_control]
+disable = [
+    "missing-docstring",
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-locals",
+    "too-many-branches",
+    "too-many-statements",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"] 

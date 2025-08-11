@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "id": "diabetes_trial",
+      "title": "Phase II Diabetes Trial",
+      "type": "Clinical Trial",
+      "text": "STUDY TITLE: Phase II Randomized Trial of Drug ABC in Type 2 Diabetes\nPROTOCOL NUMBER: ABC-2024-001\nSPONSOR: PharmaCorp Inc.\nSTUDY DESIGN: Randomized, double-blind, placebo-controlled\n\nOBJECTIVES:\nPrimary: Evaluate efficacy of Drug ABC in reducing HbA1c\nSecondary: Assess safety and tolerability\n\nPATIENT POPULATION: 240 adults with Type 2 diabetes, HbA1c 7.5-10.5%\nINCLUSION CRITERIA: Age 18-75, inadequate glycemic control on metformin\n\nRESULTS:\nMean HbA1c reduction at 12 weeks: -1.2% (ABC) vs -0.4% (placebo), p<0.001.\nAdverse events: Mild nausea (12%), headache (8%).\n\nCONCLUSIONS:\nDrug ABC significantly reduced HbA1c with a favorable safety profile."
+    },
+    {
+      "id": "hypertension_trial",
+      "title": "Hypertension Drug Study",
+      "type": "Clinical Trial",
+      "text": "STUDY TITLE: Evaluation of Drug XYZ for Hypertension Treatment\nSPONSOR: HealthPharma Ltd.\nSTUDY DESIGN: Open-label, multicenter trial\n\nOBJECTIVES:\nPrimary: Determine the effect of Drug XYZ on blood pressure\nSecondary: Monitor adverse events and laboratory changes\n\nPATIENT POPULATION: 150 patients with essential hypertension\nEXCLUSION CRITERIA: Secondary hypertension, significant comorbidities\n\nRESULTS:\nSystolic BP reduction: -15 mmHg (XYZ) vs -5 mmHg (control), p=0.002.\nAdverse events: Dizziness (5%), fatigue (3%).\n\nCONCLUSIONS:\nDrug XYZ effectively lowers blood pressure and is well tolerated."
+    },
+    {
+      "id": "adverse_event_report",
+      "title": "Adverse Event Report",
+      "type": "Adverse Event",
+      "text": "REPORT TYPE: Adverse Event\nPATIENT: 54-year-old female\nDRUG: Drug LMN\nEVENT: Severe rash and pruritus after 3 days of therapy.\nACTIONS: Drug discontinued, antihistamines administered.\nOUTCOME: Rash resolved within 5 days.\n\nCONCLUSIONS:\nLikely drug-induced hypersensitivity reaction."
+    },
+    {
+      "id": "drug_interaction_study",
+      "title": "Drug Interaction Study",
+      "type": "Pharmacokinetic Study",
+      "text": "STUDY TITLE: Drug Interaction Study of ABC and XYZ\nSPONSOR: InterPharma Inc.\nSTUDY DESIGN: Randomized, open-label, two-treatment, two-period, crossover study\n\nOBJECTIVES:\nPrimary: Evaluate the pharmacokinetic interaction between Drug ABC and Drug XYZ\nSecondary: Assess safety and tolerability of the combination\n\nSUBJECTS: 60 healthy volunteers\n\nRESULTS:\nCmax and AUC for both drugs were unchanged when co-administered.\nNo serious adverse events reported.\n\nCONCLUSIONS:\nNo clinically significant pharmacokinetic interaction observed."
+    },
+    {
+      "id": "regulatory_submission",
+      "title": "Regulatory Submission Excerpt",
+      "type": "Regulatory Submission",
+      "text": "DOCUMENT HEADER: Regulatory Submission for Drug QRS\nSUBMISSION TYPE: New Drug Application (NDA)\nSPONSOR: BioMedica Corp.\n\nMETHODOLOGY:\nComprehensive review of preclinical and clinical data, including pivotal phase III trials.\n\nRESULTS:\nDemonstrated efficacy in target population, acceptable safety profile, and compliance with regulatory standards.\n\nCONCLUSIONS:\nDrug QRS meets criteria for approval based on submitted data."
+    }
+  ]
+}

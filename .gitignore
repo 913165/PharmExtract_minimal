@@ -1,0 +1,30 @@
+env.list
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.log
+venv/
+.venv/
+.env
+.vscode/
+.idea/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+*.so
+*.dylib
+
+# Local developer documentation
+run_docker_dev.sh
+notes/
+
+# Video assets for demo
+video_assets/
